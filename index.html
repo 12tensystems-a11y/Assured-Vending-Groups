@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assured Vending Group | Strength in Numbers, Assured in Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo">
+          <img src="Untitled%20design%20%283%29.png" alt="Assured Vending Group" />
+        </a>
+
+        <ul class="nav__links">
+          <li><a href="#coverage">Coverage</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#network">Network</a></li>
+          <li><a href="#join">Join Us</a></li>
+        </ul>
+
+        <div class="nav__cta">
+          <a href="#join" class="btn btn--gold">Get a Free Quote</a>
+        </div>
+
+        <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#coverage" onclick="closeMobile()">Coverage Map</a>
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#about" onclick="closeMobile()">About Us</a>
+    <a href="#network" onclick="closeMobile()">Our Network</a>
+    <a href="#join" onclick="closeMobile()">Join Our Group</a>
+    <a href="#join" class="btn btn--gold" onclick="closeMobile()">Get a Free Quote</a>
+  </div>
+
+  <!-- ─── HERO ───────────────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero__bg-pattern"></div>
+    <div class="hero__grid-lines"></div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="hero__eyebrow-dot"></span>
+          UK's Trusted Nationwide Vending Network
+        </div>
+        <h1 class="hero__title">
+          Vending Solutions<br />
+          Built for <em>National Scale</em>
+        </h1>
+        <p class="hero__tagline">Strength in Numbers &middot; Assured in Service</p>
+        <p class="hero__body">
+          Connecting independent vending operators across the UK into a powerful,
+          unified group. Local expertise. National reach. Uncompromising service standards.
+        </p>
+        <div class="hero__actions">
+          <a href="#join" class="btn btn--gold">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            Get a Free Quote
+          </a>
+          <a href="#services" class="btn btn--outline-white">
+            <i class="fa-solid fa-arrow-down"></i>
+            Explore Services
+          </a>
+        </div>
+
+        <div class="hero__stats">
+          <div>
+            <div class="hero__stat-num">3,000+</div>
+            <div class="hero__stat-label">Vending Machines</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">180+</div>
+            <div class="hero__stat-label">Operators</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">35</div>
+            <div class="hero__stat-label">Engineers</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">17</div>
+            <div class="hero__stat-label">Installation Teams</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <div class="hero__scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ─── COVERAGE MAP ───────────────────────────────────────────── -->
+  <section class="map-section" id="coverage">
+    <div class="container">
+      <div class="map-section__header fade-up">
+        <span class="section-label">Nationwide Coverage</span>
+        <h2 class="section-title">Serving Businesses<br />Across the UK</h2>
+        <div class="gold-line"></div>
+        <p class="section-body map-section__body">
+          Our network of independent operators spans from Scotland to the South West,
+          delivering local expertise with true national reach.
+        </p>
+      </div>
+
+      <div class="map-wrapper">
+        <!-- UK SVG Map -->
+        <div class="uk-map-container fade-up">
+          <svg class="uk-map-svg" viewBox="0 0 420 600" xmlns="http://www.w3.org/2000/svg">
+            <rect width="420" height="600" fill="transparent"/>
+
+            <!-- England & Wales -->
+            <path class="uk-map-land"
+              d="M 190,480 L 165,505 L 148,520 L 135,510 L 118,495 L 110,475
+                 L 120,460 L 112,440 L 118,420 L 130,410
+                 L 125,390 L 118,370 L 125,355 L 140,345
+                 L 130,330 L 128,310 L 140,295 L 155,290
+                 L 145,275 L 148,258 L 160,250 L 155,235
+                 L 165,222 L 180,218 L 185,200 L 200,195
+                 L 210,205 L 220,200 L 232,208 L 240,220
+                 L 255,218 L 265,228 L 268,242 L 258,252
+                 L 265,262 L 275,268 L 280,285 L 275,300
+                 L 285,308 L 292,325 L 286,340 L 275,348
+                 L 282,362 L 280,380 L 268,392 L 260,405
+                 L 268,415 L 270,430 L 258,445 L 245,455
+                 L 235,470 L 220,478 L 210,488 Z"
+              stroke="rgba(200,150,12,0.4)" stroke-width="1.5" fill="#1E4080"
+            />
+
+            <!-- Scotland -->
+            <path class="uk-map-land"
+              d="M 185,200 L 182,185 L 178,170 L 172,155 L 165,142
+                 L 170,128 L 178,118 L 172,105 L 162,95
+                 L 168,82 L 180,75 L 190,68 L 200,72
+                 L 210,65 L 222,70 L 232,78 L 228,90
+                 L 238,98 L 244,110 L 240,122 L 248,132
+                 L 255,144 L 250,158 L 240,165 L 244,178
+                 L 240,192 L 232,198 L 220,200 L 210,205 L 200,195 Z"
+              stroke="rgba(200,150,12,0.4)" stroke-width="1.5" fill="#1E4080"
+            />
+
+            <!-- Northern Ireland -->
+            <path class="uk-map-land"
+              d="M 82,170 L 72,160 L 68,148 L 75,138 L 88,134 L 100,138 L 108,148 L 104,162 L 94,170 Z"
+              stroke="rgba(200,150,12,0.4)" stroke-width="1.5" fill="#1E4080"
+            />
+
+            <!-- Wales accent -->
+            <path
+              d="M 148,258 L 140,268 L 130,278 L 128,292 L 138,302 L 152,306 L 160,295 L 162,278 L 158,265 Z"
+              fill="#1A3870" stroke="rgba(200,150,12,0.25)" stroke-width="1"
+            />
+
+            <!-- Northern Ireland pin -->
+            <g class="map-pin" data-region="Northern Ireland">
+              <circle class="map-pin-pulse" cx="88" cy="152" r="6"/>
+              <circle cx="88" cy="152" r="5.5" fill="#C8960C"/>
+              <circle cx="88" cy="152" r="2.5" fill="white"/>
+            </g>
+            <!-- Glasgow City pin -->
+            <g class="map-pin" data-region="Glasgow City">
+              <circle class="map-pin-pulse" cx="175" cy="128" r="6"/>
+              <circle cx="175" cy="128" r="5.5" fill="#C8960C"/>
+              <circle cx="175" cy="128" r="2.5" fill="white"/>
+            </g>
+            <!-- North Wales pin -->
+            <g class="map-pin" data-region="North Wales">
+              <circle class="map-pin-pulse" cx="148" cy="278" r="6"/>
+              <circle cx="148" cy="278" r="5.5" fill="#C8960C"/>
+              <circle cx="148" cy="278" r="2.5" fill="white"/>
+            </g>
+            <!-- Merseyside pin -->
+            <g class="map-pin" data-region="Merseyside">
+              <circle class="map-pin-pulse" cx="163" cy="268" r="6"/>
+              <circle cx="163" cy="268" r="5.5" fill="#C8960C"/>
+              <circle cx="163" cy="268" r="2.5" fill="white"/>
+            </g>
+            <!-- Greater Manchester pin -->
+            <g class="map-pin" data-region="Greater Manchester">
+              <circle class="map-pin-pulse" cx="180" cy="260" r="6"/>
+              <circle cx="180" cy="260" r="5.5" fill="#C8960C"/>
+              <circle cx="180" cy="260" r="2.5" fill="white"/>
+            </g>
+            <!-- West Yorkshire pin -->
+            <g class="map-pin" data-region="West Yorkshire">
+              <circle class="map-pin-pulse" cx="200" cy="255" r="6"/>
+              <circle cx="200" cy="255" r="5.5" fill="#C8960C"/>
+              <circle cx="200" cy="255" r="2.5" fill="white"/>
+            </g>
+            <!-- South Yorkshire pin -->
+            <g class="map-pin" data-region="South Yorkshire">
+              <circle class="map-pin-pulse" cx="210" cy="270" r="6"/>
+              <circle cx="210" cy="270" r="5.5" fill="#C8960C"/>
+              <circle cx="210" cy="270" r="2.5" fill="white"/>
+            </g>
+            <!-- Staffordshire pin -->
+            <g class="map-pin" data-region="Staffordshire">
+              <circle class="map-pin-pulse" cx="188" cy="300" r="6"/>
+              <circle cx="188" cy="300" r="5.5" fill="#C8960C"/>
+              <circle cx="188" cy="300" r="2.5" fill="white"/>
+            </g>
+            <!-- Nottinghamshire pin -->
+            <g class="map-pin" data-region="Nottinghamshire">
+              <circle class="map-pin-pulse" cx="215" cy="295" r="6"/>
+              <circle cx="215" cy="295" r="5.5" fill="#C8960C"/>
+              <circle cx="215" cy="295" r="2.5" fill="white"/>
+            </g>
+            <!-- Leicestershire pin -->
+            <g class="map-pin" data-region="Leicestershire">
+              <circle class="map-pin-pulse" cx="220" cy="315" r="6"/>
+              <circle cx="220" cy="315" r="5.5" fill="#C8960C"/>
+              <circle cx="220" cy="315" r="2.5" fill="white"/>
+            </g>
+            <!-- Norfolk pin -->
+            <g class="map-pin" data-region="Norfolk">
+              <circle class="map-pin-pulse" cx="262" cy="315" r="6"/>
+              <circle cx="262" cy="315" r="5.5" fill="#C8960C"/>
+              <circle cx="262" cy="315" r="2.5" fill="white"/>
+            </g>
+            <!-- Cambridgeshire pin -->
+            <g class="map-pin" data-region="Cambridgeshire">
+              <circle class="map-pin-pulse" cx="248" cy="338" r="6"/>
+              <circle cx="248" cy="338" r="5.5" fill="#C8960C"/>
+              <circle cx="248" cy="338" r="2.5" fill="white"/>
+            </g>
+            <!-- Buckinghamshire pin -->
+            <g class="map-pin" data-region="Buckinghamshire">
+              <circle class="map-pin-pulse" cx="228" cy="360" r="6"/>
+              <circle cx="228" cy="360" r="5.5" fill="#C8960C"/>
+              <circle cx="228" cy="360" r="2.5" fill="white"/>
+            </g>
+            <!-- Kent pin -->
+            <g class="map-pin" data-region="Kent">
+              <circle class="map-pin-pulse" cx="264" cy="392" r="6"/>
+              <circle cx="264" cy="392" r="5.5" fill="#C8960C"/>
+              <circle cx="264" cy="392" r="2.5" fill="white"/>
+            </g>
+            <!-- Devon pin -->
+            <g class="map-pin" data-region="Devon">
+              <circle class="map-pin-pulse" cx="140" cy="460" r="6"/>
+              <circle cx="140" cy="460" r="5.5" fill="#C8960C"/>
+              <circle cx="140" cy="460" r="2.5" fill="white"/>
+            </g>
+
+            <!-- Tooltip -->
+            <g id="mapTooltip" style="display:none">
+              <rect id="tooltipBg" rx="4" fill="#0B1F3A" opacity="0.92"/>
+              <text id="tooltipText" font-family="Montserrat, sans-serif" font-size="10" fill="white" font-weight="600"/>
+            </g>
+          </svg>
+
+          <div style="display:flex;align-items:center;gap:10px;margin-top:16px;justify-content:center;">
+            <span style="width:10px;height:10px;background:var(--gold);border-radius:50%;display:inline-block;"></span>
+            <span style="font-size:12px;color:var(--text-muted);font-weight:500;letter-spacing:0.08em;">Active Member Region</span>
+          </div>
+        </div>
+
+        <!-- Coverage List -->
+        <div class="coverage-list fade-up">
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Buckinghamshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Greater Manchester</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Leicestershire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Glasgow City</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Staffordshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>West Yorkshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Merseyside</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>North Wales</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Norfolk</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>South Yorkshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Nottinghamshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Northern Ireland</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Kent</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Cambridgeshire</div>
+          <div class="coverage-item"><i class="fa-solid fa-location-dot"></i>Devon</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ──────────────────────────────────────────────── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header fade-up">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Comprehensive Vending<br />&amp; Refreshment Solutions</h2>
+        <div class="gold-line"></div>
+        <p class="section-body">
+          From fully managed vending programmes to cutting-edge micro markets, our network
+          delivers tailored refreshment solutions for every type of workplace.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-gear"></i></div>
+          <h3 class="service-card__title">Fully Managed Vending Services</h3>
+          <p class="service-card__body">
+            End-to-end vending management including machine supply, stocking, maintenance, and reporting.
+            We handle everything so your workplace stays stocked and your team stays focused.
+          </p>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <h3 class="service-card__title">Vending Machine Sales &amp; Maintenance</h3>
+          <p class="service-card__body">
+            Purchase or lease high-quality vending machines backed by expert engineering support.
+            Our nationwide engineers ensure minimal downtime and maximum uptime.
+          </p>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-mug-hot"></i></div>
+          <h3 class="service-card__title">Coffee Machine Lease &amp; Rentals</h3>
+          <p class="service-card__body">
+            Premium bean-to-cup coffee solutions for offices and commercial environments.
+            Flexible lease and rental packages to suit businesses of every size.
+          </p>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-store"></i></div>
+          <h3 class="service-card__title">Micro Markets &amp; Smart Fridges</h3>
+          <p class="service-card__body">
+            Transform breakrooms into modern self-service retail spaces. Smart fridges,
+            open-plan layouts, and 24/7 cashless payment systems for today's workforce.
+          </p>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+          <h3 class="service-card__title">Wholesale Supply</h3>
+          <p class="service-card__body">
+            Benefit from our group's collective purchasing power. Members access preferential
+            rates on products, consumables, and supplies through our preferred supplier network.
+          </p>
+        </div>
+
+        <div class="service-card fade-up" style="background:var(--navy); border-color:var(--navy);">
+          <div class="service-card__icon" style="background:rgba(200,150,12,0.15); color:var(--gold);">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3 class="service-card__title" style="color:var(--white);">Need a Tailored Solution?</h3>
+          <p class="service-card__body" style="color:rgba(255,255,255,0.65);">
+            Not every workplace is the same. Speak to our team about a bespoke vending
+            or refreshment solution designed around your specific requirements.
+          </p>
+          <a href="#join" class="btn btn--gold" style="margin-top:20px; padding:14px 28px; font-size:14px;">
+            Get a Free Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual fade-up">
+          <img
+            src="Colour_grade_should_lean_cool-_Nano_Banana_2_14825.png"
+            alt="Assured Vending Group machines in a UK office"
+            style="width:100%; height:100%; object-fit:cover; border-radius:16px; border:1px solid rgba(200,150,12,0.2);"
+          />
+          <div class="about__badge">
+            <div class="about__badge-num">2025</div>
+            <div class="about__badge-text">Est.</div>
+          </div>
+        </div>
+
+        <div class="about__content fade-up">
+          <span class="section-label">About Assured Vending Group</span>
+          <h2 class="section-title section-title--white">Independent Operators.<br />National Strength.</h2>
+          <div class="gold-line"></div>
+
+          <p class="about__body">
+            Founded in 2025, Assured Vending Group is a trusted UK network of independent
+            vending machine operators providing nationwide vending and refreshment solutions
+            for businesses across the country.
+          </p>
+          <p class="about__body">
+            Our consortium brings together experienced local vending companies to deliver
+            reliable service, competitive pricing, and high-quality solutions backed by
+            national coverage. By working collaboratively, our members benefit from shared
+            expertise, stronger purchasing power, and preferred supplier partnerships.
+          </p>
+          <p class="about__body">
+            Unlike a franchise, every Assured Vending Group member remains <strong style="color:var(--gold-light);">independently
+            owned and operated</strong>, combining personalised local service with the strength
+            and scale of a national vending network.
+          </p>
+
+          <div class="about__features">
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>Commercial vending machine solutions</div>
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>Workplace refreshment services</div>
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>Coffee vending &amp; office solutions</div>
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>National coverage, local support</div>
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>Healthcare &amp; education specialists</div>
+            <div class="about__feature"><i class="fa-solid fa-check-circle"></i>Reliable maintenance network</div>
+          </div>
+
+          <a href="#join" class="btn btn--gold">Join Our Network <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STATS BANNER ──────────────────────────────────────────── -->
+  <section class="stats" id="network">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-item fade-up">
+          <div class="stat-item__num" data-target="3000">0</div>
+          <div class="stat-item__label">Vending Machines</div>
+        </div>
+        <div class="stat-item fade-up">
+          <div class="stat-item__num" data-target="180">0</div>
+          <div class="stat-item__label">Operators Nationwide</div>
+        </div>
+        <div class="stat-item fade-up">
+          <div class="stat-item__num" data-target="35">0</div>
+          <div class="stat-item__label">Field Engineers</div>
+        </div>
+        <div class="stat-item fade-up">
+          <div class="stat-item__num" data-target="17">0</div>
+          <div class="stat-item__label">Installation Teams</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── JOIN / CTA ────────────────────────────────────────────── -->
+  <section class="join" id="join">
+    <div class="container">
+      <div class="join__inner">
+        <span class="section-label fade-up">Get Involved</span>
+        <h2 class="section-title fade-up">Grow Your Business<br />With the Group</h2>
+        <div class="gold-line" style="margin:18px auto 28px;"></div>
+        <p class="join__body fade-up">
+          Whether you're an independent vending operator looking to benefit from collective
+          purchasing power and national reach, or a supplier wanting access to our growing
+          network. There's a place for you at Assured Vending Group.
+        </p>
+      </div>
+
+      <div class="join__cards">
+        <div class="join-card join-card--operator fade-up">
+          <div class="join-card__icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3 class="join-card__title">Join Our Group</h3>
+          <p class="join-card__body">
+            Are you an independent vending machine operator? Join the Assured Vending Group
+            and unlock preferential supplier rates, national referrals, shared expertise,
+            and the power of a united network, while staying fully independent.
+          </p>
+          <ul style="margin-bottom:28px; display:flex; flex-direction:column; gap:8px;">
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.6);">
+              <i class="fa-solid fa-check" style="color:var(--gold);font-size:11px;"></i> Preferred supplier pricing
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.6);">
+              <i class="fa-solid fa-check" style="color:var(--gold);font-size:11px;"></i> National work referrals
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.6);">
+              <i class="fa-solid fa-check" style="color:var(--gold);font-size:11px;"></i> Remain independently owned
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,0.6);">
+              <i class="fa-solid fa-check" style="color:var(--gold);font-size:11px;"></i> Shared knowledge &amp; support
+            </li>
+          </ul>
+          <a href="mailto:info@assuredvendinggroup.co.uk" class="btn btn--gold">
+            Join Our Group <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="join-card join-card--supplier fade-up">
+          <div class="join-card__icon"><i class="fa-solid fa-handshake"></i></div>
+          <h3 class="join-card__title">Become a Group Supplier</h3>
+          <p class="join-card__body">
+            Supply to the Assured Vending Group network and access over 180 operators across
+            the UK. We're looking for quality suppliers of products, machines, components,
+            and services to support our growing membership.
+          </p>
+          <ul style="margin-bottom:28px; display:flex; flex-direction:column; gap:8px;">
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-body);">
+              <i class="fa-solid fa-check" style="color:var(--navy);font-size:11px;"></i> Access to 180+ operators
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-body);">
+              <i class="fa-solid fa-check" style="color:var(--navy);font-size:11px;"></i> Preferred supplier status
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-body);">
+              <i class="fa-solid fa-check" style="color:var(--navy);font-size:11px;"></i> National distribution reach
+            </li>
+            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-body);">
+              <i class="fa-solid fa-check" style="color:var(--navy);font-size:11px;"></i> Long-term partnership approach
+            </li>
+          </ul>
+          <a href="mailto:suppliers@assuredvendinggroup.co.uk" class="btn btn--gold" style="background:var(--navy);color:var(--white);border-color:var(--navy);">
+            Become a Supplier <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="fade-up" style="background:var(--navy); border-radius:16px; padding:52px; text-align:center; max-width:720px; margin:0 auto;">
+        <span class="section-label" style="color:var(--gold);">Free, No Obligation Quote</span>
+        <h3 style="font-family:var(--font-serif); font-size:30px; font-weight:700; color:var(--white); margin:12px 0 24px;">Ready to Talk Vending?</h3>
+        <p style="font-size:16px; color:rgba(255,255,255,0.65); margin-bottom:36px; line-height:1.7;">
+          Tell us about your business and we'll connect you with the right operator in your area.
+          No pushy sales. Just honest, expert advice.
+        </p>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+          <input type="text" placeholder="Your Name" style="padding:16px 20px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.07); color:white; font-family:var(--font-sans); font-size:15px; outline:none;" />
+          <input type="email" placeholder="Email Address" style="padding:16px 20px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.07); color:white; font-family:var(--font-sans); font-size:15px; outline:none;" />
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+          <input type="tel" placeholder="Phone Number" style="padding:16px 20px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.07); color:white; font-family:var(--font-sans); font-size:15px; outline:none;" />
+          <input type="text" placeholder="Company / Location" style="padding:16px 20px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.07); color:white; font-family:var(--font-sans); font-size:15px; outline:none;" />
+        </div>
+        <textarea placeholder="Tell us about your vending requirements..." rows="4" style="width:100%; padding:16px 20px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.07); color:white; font-family:var(--font-sans); font-size:15px; outline:none; resize:vertical; margin-bottom:20px;"></textarea>
+        <button class="btn btn--gold" style="width:100%; justify-content:center; font-size:16px; padding:18px;">
+          <i class="fa-solid fa-paper-plane"></i> Send My Enquiry
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PARTNERS BANNER ───────────────────────────────────────── -->
+  <section class="partners">
+    <div class="container">
+      <p class="partners__label">Proud to Work With</p>
+    </div>
+    <div class="partners__track-wrap">
+      <div class="partners__track">
+        <div class="partner-logo"><img src="brita-logo-default-bild-products.jpg" alt="Brita" /></div>
+        <div class="partner-logo"><img src="Walkers_Logo,_2026.svg.png" alt="Walkers" /></div>
+        <div class="partner-logo"><img src="Cadbury-Logo.wine.png" alt="Cadbury" /></div>
+        <div class="partner-logo"><img src="Pepsi-Logo-2023.png" alt="Pepsi" /></div>
+        <div class="partner-logo"><img src="Rhea-Vendors-logo.jpg" alt="Rhea" /></div>
+        <div class="partner-logo"><img src="Gaggia_logo.png" alt="Gaggia" /></div>
+        <div class="partner-logo"><img src="Swizzels_1200x1200.webp" alt="Swizzels" /></div>
+        <div class="partner-logo"><img src="CoffeTekLogo1280x720.webp" alt="Coffetek" /></div>
+        <!-- Duplicate for seamless loop -->
+        <div class="partner-logo"><img src="brita-logo-default-bild-products.jpg" alt="Brita" /></div>
+        <div class="partner-logo"><img src="Walkers_Logo,_2026.svg.png" alt="Walkers" /></div>
+        <div class="partner-logo"><img src="Cadbury-Logo.wine.png" alt="Cadbury" /></div>
+        <div class="partner-logo"><img src="Pepsi-Logo-2023.png" alt="Pepsi" /></div>
+        <div class="partner-logo"><img src="Rhea-Vendors-logo.jpg" alt="Rhea" /></div>
+        <div class="partner-logo"><img src="Gaggia_logo.png" alt="Gaggia" /></div>
+        <div class="partner-logo"><img src="Swizzels_1200x1200.webp" alt="Swizzels" /></div>
+        <div class="partner-logo"><img src="CoffeTekLogo1280x720.webp" alt="Coffetek" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-name">Assured Vending Group</div>
+          <div class="footer__brand-tag">Strength in Numbers &bull; Assured in Service</div>
+          <p class="footer__brand-body">
+            A trusted nationwide network of independent vending machine operators
+            delivering reliable refreshment solutions across the United Kingdom.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Services</div>
+          <ul class="footer__links">
+            <li><a href="#services">Fully Managed Vending</a></li>
+            <li><a href="#services">Machine Sales &amp; Maintenance</a></li>
+            <li><a href="#services">Coffee Machine Rentals</a></li>
+            <li><a href="#services">Micro Markets</a></li>
+            <li><a href="#services">Wholesale</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Company</div>
+          <ul class="footer__links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#coverage">Our Coverage</a></li>
+            <li><a href="#network">Our Network</a></li>
+            <li><a href="#join">Join Our Group</a></li>
+            <li><a href="#join">Become a Supplier</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Contact</div>
+          <ul class="footer__links">
+            <li><a href="mailto:info@assuredvendinggroup.co.uk">info@assuredvendinggroup.co.uk</a></li>
+            <li><a href="tel:08000000000">0800 000 0000</a></li>
+            <li><a href="#">United Kingdom</a></li>
+          </ul>
+          <div style="margin-top:24px;">
+            <div class="footer__col-title">Enquiries</div>
+            <a href="#join" class="btn btn--gold" style="padding:12px 24px; font-size:13px;">Get a Free Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Assured Vending Group Ltd. All rights reserved. Registered in England &amp; Wales.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
